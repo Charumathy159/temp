@@ -56,17 +56,27 @@ public class Selenium {
 		
 		boolean result = Home.isSelected();
 		boolean result1 = Home.isDisplayed();
-		boolean result2 = Home.isEnabled();
+		
 		
 		System.out.println(driver);
+		
 		System.out.println(result);
-		System.out.println(result1);System.out.println(result2);
+		System.out.println(result1);
 		//Radio button
 		
 		WebElement RadioButton = driver.findElement(By.xpath("//span[text()='Radio Button']"));
 		
 		RadioButton.click();
 		
+		
+		
+	WebElement impressive=	driver.findElement(By.xpath("//label[@for='impressiveRadio']"));
+	
+	Thread.sleep(2000);
+	impressive.click();
+		boolean result2 = RadioButton.isSelected();
+		Thread.sleep(5000);
+		System.out.println(result2);
 		Thread.sleep(50000);
 		driver.quit();
 			
