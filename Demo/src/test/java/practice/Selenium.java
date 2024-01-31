@@ -29,11 +29,12 @@ public class Selenium {
 		js.executeScript("arguments[0].scrollIntoView();", submit);
 		submit.click();
 		
-	/*	WebElement Output = driver.findElement(By.id("output"));
 		
-		Output.getText();
 		
-		System.out.println(Output); */
+		WebElement Output = driver.findElement(By.xpath("//div[@class='border col-md-12 col-sm-12']"));
+		
+		
+		System.out.println(Output.getText()); 
 		
 		//checkboxes 
 		
@@ -78,7 +79,7 @@ public class Selenium {
 		Thread.sleep(5000);
 		System.out.println(result2);
 		Thread.sleep(50000);
-		driver.quit();
+	//	driver.quit();
 			
 		
 		
