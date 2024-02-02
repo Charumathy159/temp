@@ -6,10 +6,11 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class AlertsPractice {
-	
-	public static void main(String[] args) throws InterruptedException
+	@Test
+	public void test1() throws InterruptedException
 	{
 		WebDriver driver = new ChromeDriver();
 		
