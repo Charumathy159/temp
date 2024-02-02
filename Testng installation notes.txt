@@ -1,0 +1,11 @@
+Testng 
+
+add testng dependencies
+
+install testng software in eclipse
+
+Click ---> Help ---> install new sofware ---> add name and sofware install url
+
+https://testng.org/testng-eclipse-update-site
+
+select the all testng options available and install 
