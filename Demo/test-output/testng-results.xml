@@ -1,113 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T06:10:06 GMT" name="Default suite" finished-at="2024-02-05T06:10:11 GMT" duration-ms="4877">
+  <suite started-at="2024-02-05T07:01:43 GMT" name="Default suite" finished-at="2024-02-05T07:01:48 GMT" duration-ms="5132">
     <groups>
     </groups>
-    <test started-at="2024-02-05T06:10:06 GMT" name="Default test" finished-at="2024-02-05T06:10:11 GMT" duration-ms="4877">
+    <test started-at="2024-02-05T07:01:43 GMT" name="Default test" finished-at="2024-02-05T07:01:48 GMT" duration-ms="5132">
       <class name="practice.TestNg_Example">
-        <test-method signature="LaunchBrowser()[pri:0, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:06 GMT" name="LaunchBrowser" finished-at="2024-02-05T06:10:09 GMT" duration-ms="2172" status="PASS">
+        <test-method signature="LaunchBrowser()[pri:0, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:43 GMT" name="LaunchBrowser" finished-at="2024-02-05T07:01:45 GMT" duration-ms="2566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="LoadPage()[pri:1, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:09 GMT" name="LoadPage" finished-at="2024-02-05T06:10:10 GMT" duration-ms="1537" status="PASS">
+        <test-method signature="LoadPage()[pri:1, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:45 GMT" name="LoadPage" finished-at="2024-02-05T07:01:47 GMT" duration-ms="1471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadPage -->
-        <test-method signature="Fullname()[pri:2, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:10 GMT" name="Fullname" finished-at="2024-02-05T06:10:10 GMT" duration-ms="250" status="PASS">
+        <test-method signature="Fullname()[pri:2, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:47 GMT" name="Fullname" finished-at="2024-02-05T07:01:47 GMT" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fullname -->
-        <test-method signature="Address()[pri:3, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:10 GMT" name="Address" finished-at="2024-02-05T06:10:11 GMT" duration-ms="102" status="PASS">
+        <test-method signature="Address()[pri:3, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:47 GMT" name="Address" finished-at="2024-02-05T07:01:47 GMT" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Address -->
-        <test-method signature="Email()[pri:4, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:11 GMT" name="Email" finished-at="2024-02-05T06:10:11 GMT" duration-ms="149" status="PASS">
+        <test-method signature="Email()[pri:4, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:47 GMT" name="Email" finished-at="2024-02-05T07:01:47 GMT" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email -->
-        <test-method signature="Phone()[pri:5, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:11 GMT" name="Phone" finished-at="2024-02-05T06:10:11 GMT" duration-ms="266" status="PASS">
+        <test-method signature="Phone()[pri:5, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:47 GMT" name="Phone" finished-at="2024-02-05T07:01:48 GMT" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Phone -->
-        <test-method signature="Gender()[pri:6, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:11 GMT" name="Gender" finished-at="2024-02-05T06:10:11 GMT" duration-ms="107" status="PASS">
+        <test-method signature="Gender()[pri:6, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:48 GMT" name="Gender" finished-at="2024-02-05T07:01:48 GMT" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Gender -->
-        <test-method signature="Hobbies()[pri:7, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:11 GMT" name="Hobbies" finished-at="2024-02-05T06:10:11 GMT" duration-ms="90" status="PASS">
+        <test-method signature="Hobbies()[pri:7, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:48 GMT" name="Hobbies" finished-at="2024-02-05T07:01:48 GMT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hobbies -->
-        <test-method signature="Languages()[pri:8, instance:practice.TestNg_Example@31fa1761]" started-at="2024-02-05T06:10:11 GMT" name="Languages" finished-at="2024-02-05T06:10:11 GMT" duration-ms="94" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=116.0.5845.140)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3dc5d5f87d0609addf759863ab360127, sendKeysToElement {value=[Ljava.lang.CharSequence;@2d0566ba, id=E5F3E81927DF4558A32A1A35E45291DA_element_63}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54101/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3dc5d5f87d0609addf759863ab360127)] -> xpath: //div[@id='msdd']]
-Session ID: 3dc5d5f87d0609addf759863ab360127]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=116.0.5845.140)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3dc5d5f87d0609addf759863ab360127, sendKeysToElement {value=[Ljava.lang.CharSequence;@2d0566ba, id=E5F3E81927DF4558A32A1A35E45291DA_element_63}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54101/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3dc5d5f87d0609addf759863ab360127)] -> xpath: //div[@id='msdd']]
-Session ID: 3dc5d5f87d0609addf759863ab360127
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at practice.TestNg_Example.Languages(TestNg_Example.java:71)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="Languages()[pri:10, instance:practice.TestNg_Example@32502377]" started-at="2024-02-05T07:01:48 GMT" name="Languages" finished-at="2024-02-05T07:01:48 GMT" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Languages -->

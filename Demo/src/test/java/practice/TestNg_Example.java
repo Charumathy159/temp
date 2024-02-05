@@ -1,9 +1,13 @@
 package practice;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class TestNg_Example {
@@ -64,11 +68,17 @@ public class TestNg_Example {
 		Movies.click();
 		
 	}
-	@Test(priority=8)
-	public void Languages()
+	@Test(priority=10)
+	public void Languages() throws InterruptedException
 	{
+		//WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+	
+		
 		WebElement Languages = driver.findElement(By.xpath("//div[@id='msdd']"));
-		Languages.sendKeys("English,Tamil");
+		
+	//	wait.until(ExpectedConditions.elementToBeClickable(Languages));
+		
+		//Languages.sendKeys("English,Tamil");
 		
 		
 	}
