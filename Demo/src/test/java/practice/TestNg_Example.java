@@ -1,22 +1,28 @@
 package practice;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestNg_Example {
+	
+
 
 	WebDriver driver;
 	@Test(priority=0)
 	public void LaunchBrowser()
 	{
 	 driver = new ChromeDriver();
+	 
 	 driver.manage().window().maximize();
 	}
 	@Test(priority=1)
@@ -72,15 +78,101 @@ public class TestNg_Example {
 	public void Languages() throws InterruptedException
 	{
 		//WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-	
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		WebElement Languages = driver.findElement(By.xpath("//div[@id='msdd']"));
 		
-	//	wait.until(ExpectedConditions.elementToBeClickable(Languages));
+		Languages.click();
+		 
+		WebElement chooseLanguage = driver.findElement(By.xpath("//li/a[text()='English']"));
 		
-		//Languages.sendKeys("English,Tamil");
+		chooseLanguage.click();
 		
 		
+	
+		
+	}
+	
+	@Test(priority=11)
+	public void Skills ()
+	{
+		WebElement Skills = driver.findElement(By.xpath("//select[@ng-model='Skill']"));
+		
+		Select Skill = new Select(Skills);
+		
+		Skill.selectByVisibleText("Java");
+	
+	}
+	
+	@Test(priority=12)
+	public void Country()
+	{
+		WebElement Countries  = driver.findElement(By.xpath("//select[@id='countries']"));
+		
+		Select Country = new Select(Countries);
+		
+		Country.selectByVisibleText("Select Country");
+		
+		
+		
+		WebElement SelectCountry = driver.findElement(By.xpath("//span[@role='combobox']"));		
+		
+		SelectCountry.click();
+		
+		driver.findElement(By.xpath("//li[text()='India']")).click();
+		
+	}
+	
+	@Test(priority=13)
+	public void DOB()
+	
+	{
+		WebElement YearBox = driver.findElement(By.xpath("//select[@id='yearbox']"));
+		Select Year = new Select (YearBox);
+		Year.selectByVisibleText("2000");
+		
+		WebElement MonthBox = driver.findElement(By.xpath("//select[@ng-model='monthbox']"));
+		Select Month = new Select (MonthBox);
+		Month.selectByVisibleText("September");
+		
+		WebElement DayBox = driver.findElement(By.xpath("//select[@ng-model='daybox']"));
+		Select Day = new Select (DayBox);
+		Day.selectByVisibleText("15");
+		
+		
+	}
+	@Test(priority=14)
+	public void password ()
+	
+	{
+		WebElement Password = driver.findElement(By.xpath("//input[@id='firstpassword']"));
+		
+		Password.sendKeys("Charu@@@");
+	}
+	
+	@Test(priority=15)
+	public void confirm ()
+	
+	{
+		WebElement Confirm = driver.findElement(By.xpath("//input[@id='secondpassword']"));
+		
+		Confirm.sendKeys("Charu@@@");
+	}
+
+	@Test(priority=16)
+	public void Submit()
+	{
+		WebElement Submit = driver.findElement(By.xpath("//button[@id='submitbtn']"));
+		
+		Submit.click();
+		
+	}
+	
+	@Test(priority=110)
+	public void close()
+	
+	{
+		driver.quit();
 	}
 	
 }

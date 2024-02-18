@@ -5,7 +5,7 @@
     <classes>
       <class name="practice.TestNg_Example">
         <methods>
-          <include name="Languages"/>
+          <include name="Country"/>
         </methods>
       </class> <!-- practice.TestNg_Example -->
     </classes>
