@@ -29,6 +29,7 @@ public class TestNg_Example {
 	public void LoadPage()
 	{
 		driver.get("https://demo.automationtesting.in/Register.html");
+		System.out.println("Page Loaded");
 	}
 	@Test(priority=2)
 	public void Fullname()
@@ -37,6 +38,7 @@ public class TestNg_Example {
 		Firstname.sendKeys("Charumathy");
 		WebElement LastName = driver.findElement(By.xpath("//input[@ng-model='LastName']"));
 		LastName.sendKeys("V");
+		System.out.println("Fullname Entered");
 		
 	}
 	
@@ -45,6 +47,7 @@ public class TestNg_Example {
 	{
 		WebElement Address = driver.findElement(By.xpath("//textarea[@ng-model='Adress']"));
 		Address.sendKeys("Guduvancheri");
+		System.out.println("Address Entered");
 		
 	}
 	
@@ -53,12 +56,14 @@ public class TestNg_Example {
 	{
 		WebElement Email = driver.findElement(By.xpath("//input[@ng-model='EmailAdress']"));
 		Email.sendKeys("charu@gmail.com");
+		System.out.println("Email Entered");
 	}
 	@Test(priority=5)
 	public void Phone()
 	{
 		WebElement Phone = driver.findElement(By.xpath("//input[@ng-model='Phone']"));
 		Phone.sendKeys("9876543210");
+		System.out.println("Phone Entered");
 	}
 	@Test(priority=6)
 	public void Gender()
@@ -66,13 +71,15 @@ public class TestNg_Example {
 		WebElement GenderButton = driver.findElement(By.xpath("//input[@value='FeMale']"));
 		
 		GenderButton.click();
+		
+		System.out.println("gender Entered");
 	}
 	@Test(priority=7)
 	public void Hobbies()
 	{
 		WebElement Movies = driver.findElement(By.xpath("//input[@value='Movies']"));
 		Movies.click();
-		
+		System.out.println("Hobbies Entered");
 	}
 	@Test(priority=10)
 	public void Languages() throws InterruptedException
@@ -88,7 +95,7 @@ public class TestNg_Example {
 		
 		chooseLanguage.click();
 		
-		
+		System.out.println("Language Entered");
 	
 		
 	}
@@ -102,6 +109,7 @@ public class TestNg_Example {
 		
 		Skill.selectByVisibleText("Java");
 	
+		System.out.println("Skill Entered");
 	}
 	
 	@Test(priority=12)
@@ -120,7 +128,7 @@ public class TestNg_Example {
 		SelectCountry.click();
 		
 		driver.findElement(By.xpath("//li[text()='India']")).click();
-		
+		System.out.println("Country Entered");
 	}
 	
 	@Test(priority=13)
@@ -139,7 +147,7 @@ public class TestNg_Example {
 		Select Day = new Select (DayBox);
 		Day.selectByVisibleText("15");
 		
-		
+		System.out.println("DOB Entered");
 	}
 	@Test(priority=14)
 	public void password ()
@@ -148,6 +156,8 @@ public class TestNg_Example {
 		WebElement Password = driver.findElement(By.xpath("//input[@id='firstpassword']"));
 		
 		Password.sendKeys("Charu@@@");
+		
+		System.out.println("Password Entered");
 	}
 	
 	@Test(priority=15)
@@ -157,6 +167,8 @@ public class TestNg_Example {
 		WebElement Confirm = driver.findElement(By.xpath("//input[@id='secondpassword']"));
 		
 		Confirm.sendKeys("Charu@@@");
+		
+		System.out.println("Confirm password Entered");
 	}
 
 	@Test(priority=16)
@@ -165,6 +177,8 @@ public class TestNg_Example {
 		WebElement Submit = driver.findElement(By.xpath("//button[@id='submitbtn']"));
 		
 		Submit.click();
+		
+		System.out.println("Submit Clicked");
 		
 	}
 	

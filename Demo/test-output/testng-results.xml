@@ -2,72 +2,72 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-18T21:49:46 IST" name="Default suite" finished-at="2024-02-18T21:50:06 IST" duration-ms="19423">
+  <suite started-at="2024-02-18T21:57:10 IST" name="Default suite" finished-at="2024-02-18T21:57:41 IST" duration-ms="31024">
     <groups>
     </groups>
-    <test started-at="2024-02-18T21:49:46 IST" name="Default test" finished-at="2024-02-18T21:50:06 IST" duration-ms="19423">
+    <test started-at="2024-02-18T21:57:10 IST" name="Default test" finished-at="2024-02-18T21:57:41 IST" duration-ms="31024">
       <class name="practice.TestNg_Example">
-        <test-method signature="LaunchBrowser()[pri:0, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:49:46 IST" name="LaunchBrowser" finished-at="2024-02-18T21:49:55 IST" duration-ms="8134" status="PASS">
+        <test-method signature="LaunchBrowser()[pri:0, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:11 IST" name="LaunchBrowser" finished-at="2024-02-18T21:57:19 IST" duration-ms="8638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="LoadPage()[pri:1, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:49:55 IST" name="LoadPage" finished-at="2024-02-18T21:50:00 IST" duration-ms="4983" status="PASS">
+        <test-method signature="LoadPage()[pri:1, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:19 IST" name="LoadPage" finished-at="2024-02-18T21:57:33 IST" duration-ms="14196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadPage -->
-        <test-method signature="Fullname()[pri:2, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:00 IST" name="Fullname" finished-at="2024-02-18T21:50:01 IST" duration-ms="920" status="PASS">
+        <test-method signature="Fullname()[pri:2, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:33 IST" name="Fullname" finished-at="2024-02-18T21:57:34 IST" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fullname -->
-        <test-method signature="Address()[pri:3, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:01 IST" name="Address" finished-at="2024-02-18T21:50:01 IST" duration-ms="254" status="PASS">
+        <test-method signature="Address()[pri:3, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:34 IST" name="Address" finished-at="2024-02-18T21:57:36 IST" duration-ms="2398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Address -->
-        <test-method signature="Email()[pri:4, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:01 IST" name="Email" finished-at="2024-02-18T21:50:01 IST" duration-ms="239" status="PASS">
+        <test-method signature="Email()[pri:4, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:36 IST" name="Email" finished-at="2024-02-18T21:57:37 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email -->
-        <test-method signature="Phone()[pri:5, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:01 IST" name="Phone" finished-at="2024-02-18T21:50:01 IST" duration-ms="215" status="PASS">
+        <test-method signature="Phone()[pri:5, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:37 IST" name="Phone" finished-at="2024-02-18T21:57:37 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Phone -->
-        <test-method signature="Gender()[pri:6, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:01 IST" name="Gender" finished-at="2024-02-18T21:50:01 IST" duration-ms="199" status="PASS">
+        <test-method signature="Gender()[pri:6, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:37 IST" name="Gender" finished-at="2024-02-18T21:57:37 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Gender -->
-        <test-method signature="Hobbies()[pri:7, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:01 IST" name="Hobbies" finished-at="2024-02-18T21:50:02 IST" duration-ms="161" status="PASS">
+        <test-method signature="Hobbies()[pri:7, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:37 IST" name="Hobbies" finished-at="2024-02-18T21:57:37 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hobbies -->
-        <test-method signature="Languages()[pri:10, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:02 IST" name="Languages" finished-at="2024-02-18T21:50:02 IST" duration-ms="465" status="PASS">
+        <test-method signature="Languages()[pri:10, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:37 IST" name="Languages" finished-at="2024-02-18T21:57:38 IST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Languages -->
-        <test-method signature="Skills()[pri:11, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:02 IST" name="Skills" finished-at="2024-02-18T21:50:02 IST" duration-ms="287" status="PASS">
+        <test-method signature="Skills()[pri:11, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:38 IST" name="Skills" finished-at="2024-02-18T21:57:39 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Skills -->
-        <test-method signature="Country()[pri:12, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:02 IST" name="Country" finished-at="2024-02-18T21:50:03 IST" duration-ms="541" status="PASS">
+        <test-method signature="Country()[pri:12, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:39 IST" name="Country" finished-at="2024-02-18T21:57:39 IST" duration-ms="546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Country -->
-        <test-method signature="DOB()[pri:13, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:03 IST" name="DOB" finished-at="2024-02-18T21:50:04 IST" duration-ms="694" status="PASS">
+        <test-method signature="DOB()[pri:13, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:39 IST" name="DOB" finished-at="2024-02-18T21:57:40 IST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DOB -->
-        <test-method signature="password()[pri:14, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:04 IST" name="password" finished-at="2024-02-18T21:50:04 IST" duration-ms="216" status="PASS">
+        <test-method signature="password()[pri:14, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:40 IST" name="password" finished-at="2024-02-18T21:57:40 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- password -->
-        <test-method signature="confirm()[pri:15, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:04 IST" name="confirm" finished-at="2024-02-18T21:50:04 IST" duration-ms="264" status="PASS">
+        <test-method signature="confirm()[pri:15, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:40 IST" name="confirm" finished-at="2024-02-18T21:57:40 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirm -->
-        <test-method signature="Submit()[pri:16, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:04 IST" name="Submit" finished-at="2024-02-18T21:50:05 IST" duration-ms="741" status="PASS">
+        <test-method signature="Submit()[pri:16, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:40 IST" name="Submit" finished-at="2024-02-18T21:57:41 IST" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Submit -->
-        <test-method signature="close()[pri:110, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:50:05 IST" name="close" finished-at="2024-02-18T21:50:06 IST" duration-ms="770" status="PASS">
+        <test-method signature="close()[pri:110, instance:practice.TestNg_Example@1189dd52]" started-at="2024-02-18T21:57:41 IST" name="close" finished-at="2024-02-18T21:57:41 IST" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
